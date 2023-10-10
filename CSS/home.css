@@ -1,0 +1,17 @@
+/* Define custom styles for the button */
+.btn.btn-danger {
+    background-color: #d9534f; /* Red background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+/* Hover state: Darken the button when hovered */
+.btn.btn-danger:hover {
+    background-color: gray; /* Darker red on hover */
+}
+
+

@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+
+}
+h1{
+
+  color: black;
+  font-size: larger;
+  margin-top: 0%;
+  text-align: center;
+}
+
+h2{
+
+  color: black;
+  /* padding-top: 1px; */
+
+  padding-bottom: 5px;
+  font-size: large;
+}
+
+h3{
+  margin-top: 5px;
+  color: black;
+  padding-top:2px;
+  
+  font-size: large;
+  
+}
+h4{  
+
+
+  color: black;
+  margin-bottom: 1%;
+  font-size: large;
+}
+
+
+.container {
+  height: 50%;
+  font-size: 15px;
+  color: gray;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 50px rgba(8,7,16,0.6);
+  
+ 
+
+}
+
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+ 
+  
+ 
+}
+
+.form-group{
+
+margin-bottom: 1em;
+transition: all .3s;
+margin-right: 50px;
+}
+.form-label{
+
+font-size: 1em;
+display: block;
+opacity: 1;
+transform: translateY(-1.25em) scale(.8);
+transform-origin: 0 0;
+transition: all .3s;
+
+}
+
+.form-control{
+
+  box-shadow: black;
+  background-color: rgba(0,0,0,.02);
+  border-radius: 5px;
+  border-color:white;
+  border-style: none none solid none;
+  max-width: 500%;
+  transition: all .5s;
+  padding: 5px;
+  
+}
+
+.form-control::placeholder{
+
+  color: transparent;
+}
+
+.form-control:focus{
+
+  box-shadow: none;
+  outline: none;
+  border-color: orange;
+}
+
+.form-control:focus + .form-label, .form-control:not(:placeholder-shown) + .form-label{
+
+transform: translateY(-2.5em);
+}
+
+.form-group:focus-within{
+  transform:scale(1.05,1.05);
+}
+select{
+
+margin-top: 5px;
+width: 100%;
+}
+
+/* Style for the "Register" button */
+button[name="submit"] {
+  background-color: green;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 50px; /* Add spacing between the button and the login message */
+}
+button[name="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style for the login message */
+p {
+  color: black;
+  font-size: 16px;
+}
+
+/* Style for the login link within the message */
+p a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for the login link */
+p a:hover {
+  text-decoration: underline;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.center-button button {
+  display: inline-block;
+}
+
+
+
